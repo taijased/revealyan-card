@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
+@desktop:   ~"only screen and (min-width: 960px) and (max-width: 1199px)";
+@tablet:    ~"only screen and (min-width: 720px) and (max-width: 959px)";
+@mobile:    ~"only screen and (min-width: 575px) and (max-width: 719px)";
+
 .element1 {
   height: 120px;
   width: 120px;
@@ -151,6 +155,12 @@ export default {
 .container {
   margin: auto;
   text-align: center;
+  // @media @tablet {
+  //   width: 30vw;
+  // }
+  // @media @mobile {
+  //   width: 10vw;
+  // }
 }
 
 .element1, .element2, .element3, .element4, .element5, .element6, .element7 {
