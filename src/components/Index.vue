@@ -7,7 +7,7 @@
                 <div class="contacts">
                     <div class="name">Alexander Imashev</div>
                     <div class="social">
-                        <a href="https://google.com" target="_blank">
+                        <a href="https://t.me/revealyan" target="_blank">
                             <svg class="social-item telegram fade-in-delay-1" width="75px" height="75px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                                 <g>
                                     <path d="M128,0 C57.307,0 0,57.307 0,128 L0,128 C0,198.693 57.307,256 128,256 L128,256 C198.693,256 256,198.693 256,128 L256,128 C256,57.307 198.693,0 128,0 L128,0 Z" fill="#40B3E0"></path>
@@ -86,12 +86,9 @@ export default {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            // @media @tablet {
-            //     width: 70vw;
-            // }
-            // @media @mobile {
-            //     width: 90vw;
-            // }
+            @media @tablet {
+                width: 70vw;
+            }
             .company-name {
                 font-size: 26px;
                 color: white;
